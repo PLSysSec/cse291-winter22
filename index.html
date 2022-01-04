@@ -1,0 +1,105 @@
+<meta charset="utf-8"><!-- -*- markdown -*- -->
+    **CSE 291: JIT Security**
+         [*Deian Stefan*](https://cseweb.ucsd.edu/~dstefan/)
+
+About
+==============================================================
+
+This is an advanced topics graduate course on secure browser just-in-time (JIT)
+compilers. The goal of the class is to understand how modern JITs are designed
+and implemented, how attackers are exploiting bugs in JITs, and how to design
+more secure---even formally verified---JIT compilers.  We will read research
+papers spanning systems security, programming languages, and formal methods. We
+will also read articles from the non-academic hacking community and parts of
+the Firefox, Chromium, and Safari codebases.  Finally, we will work on an
+original research project spanning JIT attacks and defenses.
+
+
+Lectures:
+: Tue and Thu, 2:00--3:20pm in CSE 4258 (or Zoom)
+
+Staff:
+: **Instructor**: Deian Stefan <deian+cse291@cs.ucsd.edu>
+
+: **Teaching Assistant**: Matthew Kolosick
+
+Office hours:
+: **Deian**: Monday, 2:00--3:00pm, or by appointment
+
+: **Matthew**: By appointment
+
+Zoom information:
+: See Canvas.
+
+Class discussion:
+: We'll use the CSE slack channel `jit-security-class-22`
+
+Calendar and Readings
+==============================================================
+
+
+Tue Jan  4 2022: Course + V8 Intro
+  - *Read in class*:
+    - [Compile Your Own Type Confusions: Exploiting Logic Bugs in JavaScript JIT Engines](http://www.phrack.org/issues/70/9.html#article) by saelo
+
+Thu Jan 6 2022: SpiderMonkey intro
+  - *Read*:
+    - [A journey into IonMonkey: root-causing CVE-2019-9810](https://doar-e.github.io/blog/2019/06/17/a-journey-into-ionmonkey-root-causing-cve-2019-9810/) by 0vercl0k
+    - [Introduction to SpiderMonkey exploitation](https://doar-e.github.io/blog/2018/11/19/introduction-to-spidermonkey-exploitation/) by 0vercl0k
+
+Thu Jan 11 2022: JSCore intro
+  - *Read*:
+    - [Attacking JavaScript Engines: A case study of JavaScriptCore and CVE-2016-4622](http://www.phrack.org/issues/70/3.html#article) by saelo
+  - *Optional*:
+    - [New Series: Getting Into Browser Exploitation](https://liveoverflow.com/getting-into-browser-exploitation-new-series-introduction-browser-0x00/) 
+
+<!-- Mon Apr 5 2021: In&#45;the&#45;Wild Series -->
+<!--     &#45; [How to Read a Paper](papers/keshav:how.pdf) by S. Keshav  -->
+<!--     &#45; [A Note on the Confinement Problem](papers/lampson:confinement.pdf) by B. Lampson -->
+<!--     &#45; [Introducing the In&#45;the&#45;Wild Series](https://googleprojectzero.blogspot.com/2021/01/introducing&#45;in&#45;wild&#45;series.html) at least the first three posts. -->
+<!--     &#45; [Доверя́й, но проверя́й: SFI safety for native&#45;compiled Wasm](https://cseweb.ucsd.edu/~dstefan/pubs/johnson:2021:veriwasm.pdf) by E. Johnson et al. -->
+<!--     &#45; [Compile Your Own Type Confusion: Exploiting Logic Bugs in JavaScript JIT Engines](http://phrack.org/papers/jit_exploitation.html) by saelo -->
+<!--     &#45; [A case study of JavaScriptCore and CVE&#45;2016&#45;4622](http://phrack.org/papers/attacking_javascript_engines.html) by saelo -->
+<!--     &#45; [CodeAlchemist: Semantics&#45;Aware Code Generation to Find Vulnerabilities in JavaScript Engines](papers/han:codealchemist.pdf) by H. Han et al. -->
+<!--     &#45; [Towards a verified range analysis for JavaScript JITs](https://cseweb.ucsd.edu/~dstefan/pubs/brown:2020:vera.pdf) by F. Brown et al. -->
+<!--     &#45; [Formally Verified Speculation and Deoptimization in a JIT Compiler](papers/barriere:jit.pdf) by A. Barriere et al. -->
+<!--     &#45; [Finding and Preventing Bugs in JavaScript Bindings](papers/brown:finding.pdf) by F. Brown et al. -->
+<!--     &#45; [NoJITsu: Locking Down JavaScript Engines](papers/park:nojitsu.pdf) by T. Park et al. -->
+
+
+
+
+Evaluation
+==============================================================
+
+The primary goal of this course is to prepare to you to do research, the
+evaluation for this course is simple: (1) class participation and (2) research
+project and presentation.
+
+Participation (30%)
+--------------------------------------------------------------
+
+You are expected to read the assigned paper(s) before each meeting. In class we
+will discuss the interesting parts of the paper(s). You are expected to do any
+background reading on your own and come prepared with questions and an
+evaluation of the paper. The PhD students in the class are also expected to
+lead one discussion section.
+
+Research project (60%) + presentation (10%)
+--------------------------------------------------------------
+
+You will work on projects in groups of 2-3.  The goal of the project is to
+conduct original research in JIT security. You are encouraged to come up with
+your own project idea, but we have a few ideas that are well-scoped for a
+quarter project.
+
+At the end of the quarter, you are expected to turn in a short research paper
+(6-10 pages) and give a 15 minute talk. We will have periodic status updates to
+help you stay on track.
+
+
+<style class="fallback">body{visibility:hidden;white-space:pre;font-family:monospace}</style><script src="markdeep.min.js"></script>
+<script>
+  window.alreadyProcessedMarkdeep || (document.body.style.visibility="visible");
+  markdeepOptions= {tocStyle: 'short', sortScheduleLists: false };
+</script>
